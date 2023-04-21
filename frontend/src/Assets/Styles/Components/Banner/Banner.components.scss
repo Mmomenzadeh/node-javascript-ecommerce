@@ -1,0 +1,123 @@
+.Banner {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.BannerVertical {
+  position: relative;
+  &__img {
+    border-radius: 2rem;
+    filter: brightness(0.5);
+    width: 300px;
+    height: 500px;
+  }
+  &__heading {
+    position: absolute;
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    top: 19%;
+    right: 10%;
+  }
+
+  &__name {
+    position: absolute;
+    color: #ffffffd5;
+    font-size: 1.3rem;
+    top: 10%;
+    right: 22%;
+    font-weight: bold;
+  }
+
+  &__btn {
+    position: absolute;
+    top: 80%;
+    right: 30%;
+  }
+}
+
+.BannerSmall {
+  position: relative;
+
+  &__img {
+    border-radius: 2rem;
+    width: 290px;
+    height: 240px;
+    filter: brightness(0.5);
+  }
+
+  &__link {
+    text-decoration: none;
+    position: absolute;
+    top: 40%;
+    line-height: 1.3;
+    right: 5%;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    width: 180px;
+    cursor: pointer;
+    &--fs{
+      font-size: 1.35rem;
+    line-height: 1.8;
+
+    }
+
+    &:hover {
+      color: #ffffff99;
+      transition: 2s;
+    }
+  }
+
+  &__txt {
+    position: absolute;
+        top: 75%;
+        right: 5%;
+        color: #ffffffd5;
+        font-size: 1.1rem;
+  }
+}
+
+.bannerHorizontal {
+  position: relative;
+
+  cursor: pointer;
+  &__img {
+    border-radius: 1.5rem;
+
+    &--large {
+      width: 55rem;
+      height: 22rem;
+    }
+
+    &--small {
+      width: 36rem;
+      height: 23rem;
+    }
+
+    &--full {
+      width: 135rem;
+      
+    }
+
+    &--space{
+      margin-top: 10rem;
+    }
+
+    &--filter {
+      filter: brightness(0.5);
+    }
+  }
+
+  &__txt {
+    position: absolute;
+    right: 2.5rem;
+    bottom: 5rem;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: bolder;
+  }
+}

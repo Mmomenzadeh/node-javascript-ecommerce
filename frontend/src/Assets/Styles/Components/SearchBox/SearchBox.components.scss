@@ -1,0 +1,12 @@
+.searchBox{
+    position: relative;
+
+    &__icon{
+        font-size: 2.1rem;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translate(0px, -50%);
+        color: var(--gray-400);
+    }
+}

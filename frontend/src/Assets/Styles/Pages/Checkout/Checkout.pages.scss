@@ -1,0 +1,91 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__top {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    border: 0.1rem solid var(--gray-100);
+    border-radius: 1rem;
+    width: 110rem;
+    height: 12rem;
+  }
+
+  &__side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 0.1rem solid var(--gray-100);
+    padding: 1.2rem 1.5rem;
+    width: 22rem;
+    height: 17rem;
+    border-radius: 2rem;
+  }
+
+  &__main {
+    border: 0.1rem solid var(--gray-100);
+    padding: 1.5rem;
+    width: 82rem;
+
+    border-radius: 2rem;
+
+    &__form {
+      display: flex;
+    }
+  }
+}
+
+.line-small {
+  border-top: 0.1rem solid;
+  width: 15rem;
+}
+
+.badge-blue {
+  color: var(--blue-100);
+  padding: 0.3rem 0.5rem;
+  border-radius: 1rem;
+  background-color: #19c0d312;
+}
+
+.textarea {
+  font-family: IRANSANS;
+  outline: none !important;
+  border: 1px solid var(--gray-100);
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  width: 76.5rem;
+  padding:  2rem;
+}
+
+.custom-input {
+  border-radius: 15px;
+  border: 1px #0c8af8 solid;
+  padding: 4px 12px;
+  background-color: white;
+  height: 22px;
+  box-shadow: 0 0 2px #0074d9;
+}
+
+
+
+
+.test-container {
+  width: 39rem;
+}
+
+.test-container .rmdp-input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  border: 0.1rem solid var(--gray-100);
+  border-radius: 1rem;
+
+}
+
+
+.rmdp-week{
+  width: 40rem;
+}

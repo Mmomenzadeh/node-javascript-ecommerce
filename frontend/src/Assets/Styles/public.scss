@@ -1,0 +1,80 @@
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./styled-system.scss";
+@import "./public-class.scss";
+
+@font-face {
+  font-family: IRANSANS;
+  src: url(../Fonts/IRANSans-web.woff);
+}
+
+@font-face {
+  font-family: IRANSANSBlod;
+  src: url(../Fonts/IRANSans-Bold-web.woff);
+}
+
+$font-family: IRANSANS;
+
+html,
+body {
+  font-size: 62.5%; // 10px
+  // overflow-x: hidden;
+  position: relative;
+
+}
+
+:root {
+  font-size: 62.5%; // 10px
+  font-family: $font-family;
+  direction: rtl;
+}
+
+
+.Toastify__toast-body{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.scroll {
+  width: 65rem;
+  height: 75rem;
+  overflow-y: scroll;
+
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--gray-200);
+  border-radius: 1rem;
+
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gray-200);
+
+}
+
+
+
+
+// ::-webkit-scrollbar {
+//   display: none;
+
+
+// }

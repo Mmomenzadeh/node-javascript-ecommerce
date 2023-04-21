@@ -1,0 +1,39 @@
+.headingTitle {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    &__title-fa {
+      font-family: IRANYEKAN-extrablod;
+  
+      color: #727272;
+      font-size: 2.5rem;
+    }
+  
+    &__title-en {
+      color: #727272;
+      font-size: 1.6rem;
+      padding: 0.5rem 0.8rem;
+      background-color: #f5f5f5f5;
+      border-radius: 1.7rem;
+    }
+  
+    &__link{
+        text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.2rem;
+      cursor: pointer;
+      color: #727272;
+      &:hover{
+          color: #ef3a4f;
+      }
+  
+    }
+  
+    .line{
+      border-bottom: 0.1rem dashed #444;
+    }
+  }
+  

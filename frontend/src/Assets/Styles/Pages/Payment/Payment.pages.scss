@@ -1,0 +1,77 @@
+.Payment {
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #f2f2f2ee;
+  display: flex;
+  justify-content: center;
+
+  &__form {
+    width: 100rem;
+    height: 70rem;
+    border-radius: 2rem;
+    background-color: #fff;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.PaymentSuccess {
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__circle {
+    margin-top: 100px;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    background: #f8faf5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__checkmark {
+    color: #9abc66;
+    font-size: 20rem;
+  }
+}
+
+
+.PaymentFaild{
+
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__circle {
+    margin-top: 100px;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    background: #f8faf5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  
+  &__failed {
+    color: var(--primary);
+    font-size: 23rem;
+  }
+
+}

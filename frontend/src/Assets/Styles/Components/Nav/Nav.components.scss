@@ -1,0 +1,35 @@
+.nav {
+  font-family: IRANSANS;
+  background-color: #f9f9f9;
+  gap: 3rem;
+  padding: 1rem 20rem;
+  margin-top: 1rem;
+  z-index: 12;
+
+  
+ 
+}
+
+.back-round-2{
+  background-color: #e1dfdf7f;
+  padding: 0.6rem 1rem;
+  border-radius: 2rem;
+}
+
+
+.back-round-50{
+  background-color: #e1dfdf7f;
+  padding: 0.6rem 0.6rem;
+  border-radius: 50%;
+}
+
+
+// .nav__link :hover{
+
+//   color: #ef3a4f;
+
+// }
+
+.nav__link :hover .nav__link__icons .nav__link__item{
+    color: var(--primary);
+}

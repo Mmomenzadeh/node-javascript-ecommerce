@@ -1,0 +1,53 @@
+.BasketShopping {
+  &__checkOutBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 0.1rem solid var(--gray-100);
+    padding: 1.2rem 1.5rem;
+    width: 22rem;
+    height: 17rem;
+    border-radius: 2rem;
+  }
+
+  &__orderList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    &__item {
+      width: 50rem;
+      height: 20rem;
+      padding: 1.5rem;
+      border: 0.1rem solid var(--gray-100);
+      border-radius: 1rem;
+      display: flex;
+      gap: 2rem;
+
+      &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &__content {
+        width: 40rem;
+      }
+    }
+  }
+}
+
+// .BasketShopping_slider{
+//     border: 0.1rem solid gray;
+//     height: 50rem;
+// }
+
+
+.orderBtn{
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: var(--primary);
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}

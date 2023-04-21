@@ -1,0 +1,28 @@
+.searchBoxLarge{
+  width: 50rem;
+  height: 4rem;
+  padding-left: 1rem;
+  background-color: #f7f8fa;
+  border-radius: 1.9rem;
+  display: flex;
+  align-items: center;
+    &__select{
+    font-family: IRANSANS;
+    background-color: var(--primary);
+    border: none;
+    outline: none;
+    color: var(--white);
+    padding: 0.7rem 0.3rem;
+    border-radius: 1.9rem;
+    box-shadow: -4px 0 8px #ef3a4f40;
+    &__opt{
+      background-color: #fff;
+      color: var(--gray-300);
+      // &:hover{
+      //   color: #fff;
+      //   background-color: var(--primary);
+      // }
+    }
+}
+  
+}

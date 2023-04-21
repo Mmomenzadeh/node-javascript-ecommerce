@@ -1,0 +1,11 @@
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  gap: 4rem;
+  cursor: pointer;
+  &__link{
+      color: #797979;
+    text-decoration: none;
+  }
+}

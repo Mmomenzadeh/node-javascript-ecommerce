@@ -1,0 +1,52 @@
+.SearchModal {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+
+
+  
+  &__Container {
+    width: 52rem;
+    position: fixed;
+    top: 2.2%;
+    right: 17%;
+    background-color: #fff;
+    border: 1px solid rgb(212, 212, 212);
+    z-index: 12;
+    border-radius: 1rem;
+    padding: 1rem ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    // display: flex;
+    // flex-direction: column;
+
+    &__hotSearch{
+      padding: 0.5rem;
+      border: 0.1rem solid var(--gray-100);
+      border-radius: 2rem;
+      cursor: pointer;
+      text-decoration: none;
+      color: #333;
+      &:hover{
+        color: #fff;
+        background-color: #a9a9a9dc;
+      }
+    }
+  }
+
+}
+
+
+.link{
+  text-decoration: none;
+}
+
+
+
+.L-blue{
+
+  border-bottom: 0.1rem solid var(--blue-100);
+}

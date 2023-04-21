@@ -1,0 +1,175 @@
+.btn {
+  font-family: IRANSANS;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+  // &--primary{
+
+  // }
+
+  &--login {
+    font-family: IRANSANSBlod;
+    background-color: var(--primary);
+    color: var(--white);
+    width: 27rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+
+    &:hover {
+      box-shadow: #f2475bb5 0px 5px 15px;
+    }
+  }
+  &--productCard {
+    background-color: var(--primary);
+    color: var(--light);
+    font-size: 1rem;
+    font-weight: normal;
+    // background-color: #F5F9FC;
+    border-radius: 0px 40px 40px 0px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  &--small {
+    padding: 8px 24px 8px 14px;
+  }
+
+  &--table-btn {
+    width: 7rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bolder;
+    padding: 1rem;
+    background-color: var(--white);
+    color: var(--white);
+  }
+
+  &--outline-red {
+    color: var(--primary);
+
+    border: 0.1rem solid var(--primary);
+    &:hover {
+      background-color: var(--primary);
+      color: var(--light);
+    }
+  }
+
+  &--outline-blue {
+    color: var(--blue-100);
+    border: 0.1rem solid var(--blue-100);
+    &:hover {
+      background-color: var(--blue-100);
+      color: var(--light);
+    }
+  }
+
+  &--outline-banner {
+    background-color: transparent;
+    border: 0.1rem solid #fff;
+    color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    &:hover {
+      background-color: #ffffff4e;
+      transition: 2s;
+    }
+  }
+
+  &--medium {
+    padding: 1.2rem;
+    width: 12rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  &--full {
+    width: 100%;
+    text-align: center;
+  }
+
+  &--modalBtn {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+  }
+
+  &--deleteModalBtn {
+    width: 13rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: var(--white);
+  }
+  &--red {
+    background-color: var(--primary);
+  }
+
+  &--green {
+    background-color: var(--gray-300);
+  }
+
+  &--stockPage {
+    color: var(--blue-100);
+    border: 0.1rem solid var(--blue-100);
+    width: 17rem;
+    font-size: 1.1rem;
+  }
+
+  &--disabled {
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+
+  &--nonDisabled {
+    background-color: var(--blue-100);
+    color: var(--light);
+  }
+
+  // &--nonDisabled :hover {
+  //   background-color: var(--blue-100);
+  //   color: var(--light);
+  // }
+
+  &--basketBtn {
+    margin-top: 1.5rem;
+    background-color: var(--primary);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  &--checkOutBtn{
+    background-color: var(--primary);
+    color: #fff;
+    padding: 1rem;
+    font-weight: bolder;
+    border-radius: 1rem;
+  }
+
+  &--PaymentBtn {
+    width: 35rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    color: #fff;
+    border-radius: 0.8rem;
+  }
+
+
+}
