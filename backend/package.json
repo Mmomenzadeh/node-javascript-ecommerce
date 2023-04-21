@@ -1,10 +1,11 @@
 {
-  "name": "maktab47-panel-ex",
+  "name": "backend",
+  "type": "module",
   "version": "1.0.0",
   "description": "Backend project for a frontend exercise for Maktab47 bootcamp, with json-server and file upload",
   "main": "index.js",
   "scripts": {
-    "backend": "node server",
+    "start": "node server",
     "backend:dev": "nodemon server"
   },
   "author": "Babak Khorrami",
